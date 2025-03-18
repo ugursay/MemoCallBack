@@ -12,3 +12,7 @@ This is a simple React application that demonstrates the use of the `useCallback
 - **State Management**: The app uses `useState` to manage the current number and theme state.
 - **Callback Optimization**: The `useCallback` hook is used to optimize the `getItems` function, which generates an array of numbers based on the input value. This prevents unnecessary re-creations of the `getItems` function on each render.
 - **useEffect**: The `useEffect` hook in the `NumberList` component is used to update the list when the input value changes.
+
+## License
+
+This project is open source under the MIT License.
